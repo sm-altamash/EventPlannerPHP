@@ -1,1 +1,11 @@
+/vendor/
+*.log
+*.cache
 .env
+.DS_Store
+/node_modules/
+/.idea/
+/.vscode/
+*.zip
+*.sql
+images/Thumbs.db
