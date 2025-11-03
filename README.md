@@ -1,26 +1,19 @@
-# Event-Planner-PHP-Project
+# Event Planner (PHP)
 
-Event Management System" is a web-based project. This system organizes the event for the customers. This system is built with PHP, MySQL, HTML, and CSS using the Bootstrap Framework.
+A simple event planner PHP project.
 
-## Download Project
+## Requirements
+- PHP 7.4+ (or your project PHP version)
+- MySQL (import SQL files in /database if needed)
+- (optional) Composer if you use composer packages
 
-Download a project from github 
+## Setup
+1. Copy `.env.example` to `.env` and set DB credentials.
+2. Import database SQL: `mysql -u root -p your_db < database/events.sql` (repeat for users/locations)
+3. Start PHP dev server: `php -S localhost:8000`
+   or run via XAMPP/Apache by placing the project under htdocs.
 
-[Download Project](https://github.com/ganeshkavhar/Event-Planner-PHP-Project/)
+## Notes
+- `.env` is ignored by git. Do not commit secrets.
+- If you need composer dependencies, create `composer.json` or run `composer init`.
 
-
-## Import 
-
-after download extract to Xampp folder under htdocs with any name for ex Event 
-
-## Import Database
-
-Open Localhost/phpmyadmin/ in browser and create new database with year2project name thn import database file year2project.sql
-
-
-## Run Project
-
-Lets open the Browser and type Localhost/Event/
-
-
-![Screenshot 2020-12-17 at 5 24 10 AM](https://user-images.githubusercontent.com/20369800/102421370-4ed02500-402a-11eb-8e68-96aab7a9b783.png)
